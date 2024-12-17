@@ -1,5 +1,5 @@
 // URL da API no Vercel
-const apiUrl = 'https://my-api.vercel.app/api';
+const apiUrl = 'https://test-api-eta-six.vercel.app';
 
 // Carregar os contadores ao carregar a página
 document.addEventListener('DOMContentLoaded', () => {

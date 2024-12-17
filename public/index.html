@@ -1,23 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Informativos</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botão Joinha</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Informativos</h1>
-  <div class="informativo" data-id="informativo1">
-    <p>Informativo 1</p>
-    <button class="joinha-btn">👍 Joinha</button>
-    <span class="count">0</span> Joinhas
-  </div>
-  <div class="informativo" data-id="informativo2">
-    <p>Informativo 2</p>
-    <button class="joinha-btn">👍 Joinha</button>
-    <span class="count">0</span> Joinhas
-  </div>
-  <script src="script.js"></script>
+    <div class="container">
+        <h1>Informativo</h1>
+        <p>Clique no botão abaixo para dar um joinha!</p>
+        <!-- Botão de Joinha -->
+        <button id="joinhaButton">👍 Dar Joinha</button>
+
+        <!-- Exibição da quantidade de Joinhas -->
+        <p>Quantidade de Joinhas: <span id="joinhaCount">0</span></p>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
