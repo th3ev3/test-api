@@ -1,0 +1,15 @@
+{
+    "version": 2,
+    "functions": {
+      "api/joinhas.js": {
+        "runtime": "nodejs18.x"
+      }
+    },
+    "routes": [
+      {
+        "src": "/api/(.*)",
+        "dest": "/api/joinhas.js"
+      }
+    ]
+  }
+  

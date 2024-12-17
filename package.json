@@ -1,0 +1,12 @@
+{
+    "name": "my-api",
+    "version": "1.0.0",
+    "main": "api/joinhas.js",
+    "scripts": {
+      "start": "node api/joinhas.js"
+    },
+    "dependencies": {
+      "sqlite3": "^5.1.6"
+    }
+  }
+  
