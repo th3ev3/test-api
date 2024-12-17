@@ -1,12 +1,12 @@
 {
-    "name": "my-api",
+    "name": "my-project",
     "version": "1.0.0",
-    "main": "api/joinhas.js",
+    "main": "index.js",
     "scripts": {
       "start": "node api/joinhas.js"
     },
     "dependencies": {
-      "sqlite3": "^5.1.6"
+      "express": "^4.18.2" // ou outras dependências necessárias
     }
   }
-  
+git  

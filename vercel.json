@@ -1,15 +1,18 @@
 {
     "version": 2,
-    "functions": {
-      "api/joinhas.js": {
-        "runtime": "nodejs18.x"
-      }
-    },
-    "routes": [
+    "builds": [
       {
-        "src": "/api/(.*)",
-        "dest": "/api/joinhas.js"
+        "src": "api/*.js",
+        "use": "@vercel/node"
+      },
+      {
+        "src": "public/**/*",
+        "use": "@vercel/static"
       }
+    ],
+    "routes": [
+      { "src": "/api/(.*)", "dest": "/api/$1" },
+      { "src": "/(.*)", "dest": "/public/$1" }
     ]
   }
   
