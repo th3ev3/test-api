@@ -1,12 +1,17 @@
 {
     "name": "my-project",
     "version": "1.0.0",
+    "description": "Projeto de joinhas com backend e frontend",
     "main": "index.js",
     "scripts": {
-      "start": "node api/joinhas.js"
+      "start": "node api/joinhas.js",
+      "dev": "nodemon api/joinhas.js"
     },
     "dependencies": {
-      "express": "^4.18.2" // ou outras dependências necessárias
+      "express": "^4.18.2"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.22"
     }
   }
-git  
+  
